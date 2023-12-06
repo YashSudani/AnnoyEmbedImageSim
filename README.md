@@ -3,9 +3,9 @@ A repository employing advanced deep learning models and Spotify's Annoy for eff
 
 # Project Name
 
-## How To Install Environment
+## How To Install
 
-To set up the environment, use the provided YAML file located in the `environment` folder. Execute the following Anaconda command in your terminal to create the environment:
+To set up the environment, use the provided `environment.yaml` file. Execute the following command in your terminal to create the environment:
 
 ```bash
 conda env create -f environment.yml
