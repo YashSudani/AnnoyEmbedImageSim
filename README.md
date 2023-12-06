@@ -16,3 +16,7 @@ Execute the following command to start the application:
 ```bash
 streamlit run frontend.py
 ```
+
+## How it Works
+
+
