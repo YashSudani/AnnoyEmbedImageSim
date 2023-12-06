@@ -30,4 +30,5 @@ streamlit run frontend.py
 ## References
 
 - [Spotify Annoy](https://github.com/spotify/annoy)
+- [Tensorflow](https://github.com/tensorflow/tensorflow)
 - [Train dataset](https://www.kaggle.com/datasets/zarkonium/synthetic-image-dataset-cats-dogs-bikes-cars?select=cars)
