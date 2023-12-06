@@ -74,11 +74,12 @@ if selection == button_name_2:
                                                                                           "be displayed default value "
                                                                                           "11")
     submitted = form.form_submit_button("Submit")
-    if not num_similar_image:
-        num_similar_image = 11
-        st.info("Using default value for Number of Similar Images. Default value: 11")
+    
     if input_image_path is not None and input_image_path and validate and submitted:
         try:
+            if not num_similar_image:
+                num_similar_image = 11
+                st.info("Using default value for Number of Similar Images. Default value: 11")
             with st.spinner('Inference...'):
                 image_path_list = image_similarity.inference(str(user_input), input_image_path, num_similar_image)
                 image_path_list_basename = [os.path.basename(ele) for ele in image_path_list]
